@@ -1,5 +1,5 @@
 // Asks user what robots name is
-
+window.alert("welcome to Robot Gladiators!");
 // player information
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
@@ -12,9 +12,11 @@ var enemyHealth = 50;
 var enemyAttack = 12;
 
 var fight = function(enemyName) {
-    // Alert palyers that they are starting the round
-    window.alert("welcome to Robot Gladiators!");
-
+    // repeat and execute as long as the enemy-robot is alive
+    while(enemyHealth > 0) {
+    }
+    
+    // Alert players that they are starting the round
     var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? enter 'FIGHT' or 'SKIP to choose.");
         console.log(promptFight);
 
